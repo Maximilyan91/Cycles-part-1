@@ -38,6 +38,12 @@ public class Main {
         System.out.println(i);
 
         }
+
+        // Задача 7.
+
+        for (int i = 1; i <= 512; i=i*2) {
+            System.out.println(i);
+        }
     }
 
 }
