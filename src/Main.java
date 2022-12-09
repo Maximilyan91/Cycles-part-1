@@ -53,8 +53,24 @@ public class Main {
             System.out.println("Месяц " + i + " Сумма накоплений составит " + s + " рублей");
         }
 
+        // Задача 9.
 
+        int cashPay = 29000;
+        int payOfYear = 0;
+        for (int i = 1; i <= 12; i++) {
+            payOfYear = payOfYear + payOfYear/100;
+            payOfYear = payOfYear + cashPay;
+            System.out.println("Месяц " + i + " Сумма накоплений = " + payOfYear);
+        }
 
+        // Задача 10.
+
+        int x = 2;
+        for (int i = 1; i <= 10; i++) {
+            int z = x * i;
+            System.out.println(z);
+
+        }
 
 
 
