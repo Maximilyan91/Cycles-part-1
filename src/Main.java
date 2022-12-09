@@ -44,6 +44,25 @@ public class Main {
         for (int i = 1; i <= 512; i=i*2) {
             System.out.println(i);
         }
+
+        // Задача 8.
+
+        int salary = 29000;
+        for (int i = 1; i <= 12; i++) {
+            int s = salary * i;
+            System.out.println("Месяц " + i + " Сумма накоплений составит " + s + " рублей");
+        }
+
+
+
+
+
+
+
+
+
+
     }
+
 
 }
