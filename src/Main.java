@@ -13,6 +13,11 @@ public class Main {
             System.out.println("Итерация (шаг) цикла " + i);
         }
 
+        // Задача 3.
+
+        for (int i = 0; i <= 17; i=i+2) {
+            System.out.println("Итерация (шаг) цикла " + i);
+        }
 
 
     }
